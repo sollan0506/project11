@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+@import url(reset.css);
+
+/* *********************** 레이아웃 구성 시작 ****************************** */
+#wrap, #wrap>div {width: 100%;}
+#header {height: 105px;}
+#mainview {height: 525px;}
+#filter {height: 168px;}
+#collection {height: 819px;}
+#about {height: 546px;}
+#designer {height: 462px;}
+#footer {height: 63px;}
+
+.container {
+  width: 1170px; height: 100%; margin: auto;
+}
+
+/* *********************** 공통영역 선언 시작 ****************************** */
+
+
+
+
+
+/* *********************** 개별영역 선언 시작 ****************************** */
+/* ****************** header ****************** */
+/* site logo */
+#header h1 {
+  width: 145px;
+  height: 47px;
+  margin: 21px 0;
+  float: left;
+}
+#header h1 a {
+  background: url(../images/logo.png) no-repeat 0 0;
+}
+
+/* gnb */
+#header .gnb {
+  width: 650px;
+  height: 21px;
+  margin: 30px 0 42px 150px;
+  float: left;
+}
+#header .gnb li {
+  float: left;
+  margin: 0 17px;
+}
+#header .gnb li a {
+  font: 700 1em/21px 'Nanum Gothic', sans-serif;
+  color: #ccc;
+}
+
+/* q-menu */
+#header .q-menu {
+  width: 100px;
+  height: 21px;
+  margin: 30px 0 42px 0px;
+  float: right;
+  text-align: right;
+}
+#header .q-menu a {
+  font: 400 1.4em/21px 'Nanum Gothic', sans-serif;
+  color: #ccc;
+  margin: 0 5px;
+}
+
+
+/* **************** mainview ****************** */
+#mainview {
+  background: url(../images/mainview.jpg) no-repeat center center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-filter: grayscale(50%);
+}
+#mainview .container {
+  position: relative;
+}
+#mainview .text-box {
+  position: absolute; left: 50%; top: 50%;
+  
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  
+  text-align: center;
+}
+#mainview .text-box h2 {
+  font: bold 10em 'Nanum Gothic', sans-serif;
+  color: #fff;
+}
+#mainview .text-box p {
+  font: 400 1.4em 'Nanum Gothic', sans-serif;
+  color: #fff;
+}
+
+
+/* **************** mainview ****************** */
+/* filter title box */
+#filter .filter-title-box{
+  width: 167px;
+  height: 168px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  float: left;
+}
+#filter .filter-title-box .filter-title1,
+#filter .filter-title-box .filter-title2{
+  width: 100%;
+  height: 84px;
+  text-align: center;
+}
+#filter .filter-title-box .filter-title1{
+  font: 400 1.4em/84px 'Nanum Gothic', sans-serif;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ccc;
+}
+#filter .filter-title-box .filter-title2{
+  font: 400 1.4em/84px 'Nanum Gothic', sans-serif;
+  color: #ccc;
+}
+
+/* filter items */
+#filter ul{
+  width: 100%;
+  height: 168px;
+}
+#filter ul li{
+  width: 167px;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  padding-top: 30px;
+}
+#filter ul li:nth-child(5) {
+  padding-top: 0;
+}
+#filter ul li a h4{
+  font: 400 1em 'Nanum Gothic', sans-serif;
+  margin-top: 20px;
+}
+
+
+/* **************** collection **************** */
+#collection{
+  background-color: #f5f5f5;
+}
+
+/* title */
+#collection h3{
+  text-align: center;
+  font: 400 2.4em/21px 'Nanum Gothic', sans-serif;
+  padding: 63px 0 42px 0;
+}
+
+/* collection boxes */
+#collection .collection-boxes{
+  width: 100%;
+  height: 567px;
+}
+#collection .collection-boxes>div{
+  background-color: #fff;
+  text-align: center;
+  margin: 0 20px 21px 0;
+  float: left;
+}
+#collection .box-long {
+  width: 570px;
+  height: 273px;
+}
+#collection .box-short {
+  width: 270px;
+  height: 273px;
+}
+#collection .collection-boxes>div:nth-child(1) img{
+  margin-bottom: 10px;
+}
+#collection .collection-boxes>div:nth-child(2) img{
+  width: 130px;
+  height: 168px;
+  margin-top: 40px;
+}
+#collection .collection-boxes>div:nth-child(3) img{
+  margin-top: 40px;
+}
+#collection .collection-boxes>div:nth-child(4) img{
+  width: 190px;
+  height: 168px;
+  margin-top: 40px;
+}
+#collection .collection-boxes>div:nth-child(5) img{
+  width: 194px;
+  height: 195px;
+}
+#collection .collection-boxes>div:nth-child(5) p {
+  margin-top: 20px;
+}
+#collection .collection-boxes>div:nth-child(6) img{
+  margin: 42px 0 21px 0;
+}
+
+
+/* **************** about **************** */
+#about {
+  background: url(../images/about.png) no-repeat top right;
+}
+#about .container {
+  position: relative;
+}
+#about .text-box {
+  width: 470px;
+  height: 294px;
+  position: absolute;
+  left: 100px;
+  top: 147px;
+}
+#about .text-box h3 {
+  font: bold 2.4em 'Nanum Gothic', sans-serif;
+  margin-bottom: 42px;
+}
+#about .text-box p {
+  font: 400 1.4em/1.5 'Nanum Gothic', sans-serif;
+  margin-bottom: 42px;
+}
+#about .text-box a {
+  font: bold 1.8em 'Nanum Gothic', sans-serif;
+}
+
+
+/* **************** designer **************** */
+#designer {
+  background: url(../images/designer.png) no-repeat top left;
+}
+#designer .container {
+  position: relative;
+}
+#designer .text-box {
+  width: 470px;
+  height: 294px;
+  position: absolute;
+  right: 100px;
+  top: 147px;
+  text-align: right;
+}
+#designer .text-box h3 {
+  font: bold 2.4em 'Nanum Gothic', sans-serif;
+  margin-bottom: 63px;
+}
+#designer .text-box p {
+  font: 400 1.4em/1.5 'Nanum Gothic', sans-serif;
+  margin-bottom: 42px;
+}
+#designer .text-box a {
+  font: bold 1.8em 'Nanum Gothic', sans-serif;
+}
+
+
+/* **************** footer **************** */
+#footer {
+  margin: 105px 0 63px 0;
+}
+#footer .container {
+  position: relative;
+}
+
+/* logo */
+#footer .logo{
+  float: left;
+}
+
+/* footer-menu */
+#footer .footer-menu {
+  position: absolute; left: 50%; top: 50%;
+  
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+#footer .footer-menu li {
+  float: left;
+  margin: 0 15px 21px 15px;
+}
+#footer .footer-menu li a {
+  font: bold 1em 'Nanum Gothic', sans-serif;
+  color: #ccc;
+}
+
+/* sns */
+#footer .sns {
+  float: right;
+}
+#footer .sns a {
+  font: bold 2em 'Nanum Gothic', sans-serif;
+  color: #ccc;
+  margin: 0 5px;
+}

@@ -1,0 +1,85 @@
+
+[ HEADER 영역 ]
+
+1. LOGO - MUUTO
+
+2. GNB
+FURNITURE LIGHTING ACCESSORIES DESIGNERS INSPIRATION
+
+
+
+[ MAINVIEW 영역 ]
+
+FURNITURE
+
+Scandinavian design tradition characterised by Muuto
+
+
+
+[ FILTER 영역 ]
+
+1. TITLE
+
+products designers
+
+2. 제품명
+
+sofas chairs tables storage light accessories
+
+
+
+[ COLLECTION 영역 ]
+
+1. TITLE - COLLECTION 
+
+2. 제품명
+
+sofas chairs tables storage light accessories
+
+
+
+[ ABOUT 영역 ]
+
+1. TITLE
+
+ABOUT FURNITURE FROM MUUTO
+
+2. 서브텍스트
+
+"CONNECT is a modular seating system based on the idea of finding perfect proportional connections
+between the different components of the sofa. The design shows a precise attention to detail and
+has architectural principies derived from modernism. The sleek long lines 
+give the sofa a modern yet timeless expression."
+
+3. 버튼
+
+READ MORE
+
+
+
+[ DESIGNER 영역 ]
+
+1. TITLE
+
+LIPSUM REPSUM SLOEISEMSNMSE
+
+2. 서브텍스트
+
+"CONNECT is a modular seating system based on the idea of finding perfect proportional connections
+between the different components of the sofa. The design shows a precise attention to detail and
+has architectural principies derived from modernism. The sleek long lines 
+give the sofa a modern yet timeless expression."
+
+3. 버튼
+
+READ MORE
+
+
+[ FOOTER 영역 ]
+
+FURNITURE LIGHTING ACCESSORIES DESIGNERS INSPIRATION
+
+
+
+
+
